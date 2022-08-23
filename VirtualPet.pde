@@ -3,7 +3,7 @@ void setup(){
   size(400, 400);
 }
 void draw(){
-   background(81, 187, 242);
+  background(81, 187, 242);
   fill(242, 170, 81);
   triangle(270, 80, 270, 120, 170, 110);
   fill(255, 230, 3);
