@@ -33,8 +33,8 @@ void draw() {
   //This code makes clouds.
   noStroke();
   fill(255, 255, 255);
-    for(int i = 0; i < 3; i++) {
-      ellipse((i*55)+30, 80, 80, 60);
-      ellipse((i*55)+230, 50, 80, 60);
+    for(int c = 0; c < 3; c++) {
+      ellipse((c*55)+30, 80, 80, 60);
+      ellipse((c*55)+230, 50, 80, 60);
     }
 }
